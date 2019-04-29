@@ -47,7 +47,10 @@ article{
 	flex-wrap: wrap;
 }
 .product{
-	justify-content: flex-start;
+	justify-content: center;
+}
+.product img{
+	padding-top: 50px;
 }
 .text{
 	text-align: left;
