@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.header{
+	width: 100%;
+	max-width: 960px;
+	margin:auto;
+	display: flex;
+	height: 50px;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: black;
+}
+.logo{
+	font-size: 24px;
+	display: flex;
+	height: 58px;
+	color: white;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.redes{
+	display: flex;
+	height: 58px;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+article{
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	background-color: #ccc;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.product{
+	justify-content: flex-start;
+}
+.text{
+	text-align: left;
+	max-width: 460px;
+}
+.text p{
+	font-size: 24px;
+	font-family: arial;
+}
+h2{
+	font-size: 28pt;
+	font-family: arial;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:1px solid black;
+	border-radius: 3px;
+	background-color: red;
+	width: 84px;
+	height: 30px;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.button a:hover{
+	text-decoration: none;
+	color: red;
+	font-family: arial;
+}
+.button:hover{
+	display: flex;
+	color: red;
+	justify-content: center;
+	align-items: center;
+	border:1px solid black;
+	border-radius: 3px;
+	background-color: white;
+	width: 84px;
+	height: 30px;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
